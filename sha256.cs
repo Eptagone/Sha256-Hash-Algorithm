@@ -134,7 +134,7 @@ namespace PRUEBA
         /// <summary>Right shift of n bits of the binary word a.</summary>
         /// <param name="a">32-bits word </param>
         /// <param name="n"> Bits for rotate shift </param>
-        /// <returns></returns>
+        /// <returns>A new 32-bits word</returns>
         static uint ShR(uint a, byte n) => (a >> n);
 
         private static uint Ch(uint x, uint y, uint z) => (((x) & (y)) ^ ((~x) & (z)));
